@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeoPixel | Portafolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Encabezado -->
+  <header class="bg-white shadow-md p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-blue-600">NeoPixel</h1>
+    <nav>
+      <ul class="flex space-x-4 text-sm font-medium">
+        <li><a href="#inicio" class="hover:text-blue-600">Inicio</a></li>
+        <li><a href="#servicios" class="hover:text-blue-600">Servicios</a></li>
+        <li><a href="#portafolio" class="hover:text-blue-600">Portafolio</a></li>
+        <li><a href="#contacto" class="hover:text-blue-600">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="text-center py-20 bg-gradient-to-r from-blue-500 to-blue-700 text-white">
+    <h2 class="text-4xl font-bold mb-4">Diseño Web y Modelado 3D Profesional</h2>
+    <p class="text-lg">Construye tu presencia digital con estilo e innovación</p>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-16 px-8 bg-white">
+    <h3 class="text-3xl font-semibold text-center mb-12">Servicios</h3>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg">
+        <h4 class="text-xl font-bold mb-2">Páginas Web Personalizadas</h4>
+        <p>Diseño moderno, responsivo y adaptado a tus necesidades.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg">
+        <h4 class="text-xl font-bold mb-2">Modelado 3D en Blender</h4>
+        <p>Planos, estructuras y representaciones 3D de espacios o productos.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg">
+        <h4 class="text-xl font-bold mb-2">Diseño de Planos Arquitectónicos</h4>
+        <p>Planos digitales para casas, negocios o proyectos arquitectónicos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portafolio -->
+  <section id="portafolio" class="py-16 px-8 bg-gray-100">
+    <h3 class="text-3xl font-semibold text-center mb-12">Portafolio</h3>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white rounded-lg shadow p-4">
+        <img src="https://via.placeholder.com/400x250" alt="Proyecto Web" class="rounded mb-4">
+        <h4 class="font-bold">Sitio Web para Cafetería</h4>
+        <p class="text-sm text-gray-600">Diseño limpio, adaptado a dispositivos móviles.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4">
+        <img src="https://via.placeholder.com/400x250" alt="Modelo 3D" class="rounded mb-4">
+        <h4 class="font-bold">Plano 3D de Casa</h4>
+        <p class="text-sm text-gray-600">Modelado en Blender con texturizado realista.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4">
+        <img src="https://via.placeholder.com/400x250" alt="Proyecto Mixto" class="rounded mb-4">
+        <h4 class="font-bold">Diseño de Plano Arquitectónico</h4>
+        <p class="text-sm text-gray-600">Plano estructurado con detalles precisos para proyectos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-16 px-8 bg-white">
+    <h3 class="text-3xl font-semibold text-center mb-12">Contáctame</h3>
+    <form class="max-w-xl mx-auto space-y-4">
+      <input type="text" placeholder="Nombre" class="w-full p-3 border rounded">
+      <input type="email" placeholder="Correo electrónico" class="w-full p-3 border rounded">
+      <textarea placeholder="Mensaje" rows="4" class="w-full p-3 border rounded"></textarea>
+      <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-6">
+    <p>&copy; 2025 NeoPixel. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
